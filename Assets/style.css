@@ -51,6 +51,10 @@ a {
     color: black;
     font-size: 20px;
 }
+
+h1:hover, .nav-link:hover {
+    text-decoration: underline;
+}
 #mwa:hover{
     font-size: 24px;
     color: black;
