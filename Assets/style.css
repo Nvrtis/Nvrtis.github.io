@@ -31,16 +31,25 @@ h1 {
 #portfolio, #about {
     padding-top: 20px;
 }
+
+#mwa {
+    font-size: 20px;
+}
 a {
     color: black;
 }
-a:hover {
-    opacity: 50%;
+#mwa:hover{
+    font-size: 30px;
     color: black;
 }
 
-a:focus {
+#Marketing:hover {
     opacity: 50%;
+}
+
+
+a:focus {
+    /* opacity: 50%; */
     color: black;
     text-decoration: underline;
 }
