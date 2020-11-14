@@ -2,6 +2,9 @@
    
 ![Responsiv Portfolio](./Assets/readmeImg.jpg)
 
+[Link to Webpage](https://nvrtis.github.io/)
+
+
 This project was creating a responsiv website using Bootstrap.
 Its is built using the grid style layout, where index and contact pages are using columns 8/12 grids for astethics choice and portfolio is using all columns 12/12 grids.
 
@@ -49,7 +52,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
    * Responsive images -->
 
-* The Bootstrap portfolio should minimize the use of media queries.
+<!-- * The Bootstrap portfolio should minimize the use of media queries. -->
 <!-- 
 * Screenshots are provided as a reference in the `Assets/Images` folder. Your app does not need to be _exactly_ like the images. Use Bootstrap to create a similar, responsive layout. -->
 
@@ -59,7 +62,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 * On an `xs` screen, content should take up the entire screen. On `sm` and larger screens, you should have some margins on the left and right sides of the screen. Check out various sites on your mobile device vs. your computer to see examples of these differences. -->
 
-* Use an HTML validation service to ensure that each page has valid HTML.
+<!-- * Use an HTML validation service to ensure that each page has valid HTML. -->
 
 <!-- ### Minimum Requirements -->
 
@@ -75,9 +78,9 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 <!-- * Must use semantic html. -->
 
-* Each page must have valid and correct HTML. (use a validation service)
+<!-- * Each page must have valid and correct HTML. (use a validation service) -->
 
-* Must contain your personalized information. (bio, name, images, links to social media, etc.)
+<!-- * Must contain your personalized information. (bio, name, images, links to social media, etc.) -->
 
 <!-- * Must properly utilize Bootstrap components and grid system. -->
 
@@ -105,7 +108,7 @@ First, you will use the Bootstrap CSS Framework to create a mobile responsive po
 
 <!-- We would like you to have well over 200 commits by graduation, so commit early and often! -->
 
-## Submission on BCS
+<!-- ## Submission on BCS
 
 You are required to submit the following:
 
@@ -113,6 +116,6 @@ You are required to submit the following:
 
 * The URLs of the GitHub repositories
 
-<!-- - - -
+<!-- - - - -->
 
-© 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. -->
+<!-- © 2019 Trilogy Education Services, a 2U, Inc. brand. All Rights Reserved. -->
