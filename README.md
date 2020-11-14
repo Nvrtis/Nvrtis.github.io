@@ -10,20 +10,32 @@ Its is built using the grid style layout, where index and contact pages are usin
 
 ## Building the sites
 
-There are 3 pages on the site, which are connected through the Nav bar. Index.html linked on the h1 header (Nicholas Vrtis), and; Contact and Portfolio have designated links on the right side.
+![Navbar](./Assets/navbar.jpg)
 
-The Contact and Portfolio link will transform into a hamburger list when the screen size  992px wide, which makes it optimal when using smaller screens. I have also added hover pseudo classes on all the links on the nav bar.
+The Navbar is copied from Components from bootstrap and removed the search form one of the links included. After renaming the links, i added the class "ml-auto" to {ul class="navbar-nav ml-auto"} on line 24 to move the links to the right side of the nav bar.
+
+There are 3 pages on the site, which are connected through the Nav bar. Index.html linked on the h1 header (Nicholas Vrtis), and; Contact and Portfolio have designated links on the right side. Javascript is only running the hamburger menu on this page.
+
+![Hamburger menu](./Assets/hamburger.jpg)
+
+The Contact and Portfolio link will transform into a hamburger menu when the screen size  992px wide, which makes it optimal when using smaller screens. I have also added hover pseudo classes on all the links on the nav bar.
 
 On the Index.html page, there is only one container with some placeholder image and text. The image is floating on the left side on desktop pc, but with media queries will stop floating on smaller screens, so that the text will appear underneath the image.
-The footer is fixed on the bottom to have it out of the way, with some placeholder image for github and inverse filter. With media queries the the container will add a margin on the bottom of the container so that the footer doesnt cover the text on smaller screens.
+The footer is fixed on the bottom to have it out of the way, with some placeholder image for github and inverse filter (filter: invert(1);). With media queries the the container will add a margin on the bottom of the container so that the footer doesnt cover the text on smaller screens.
 
-Contact.html is where we have the forms for sending an email, but for now there is no backend script, so the emails/messages are not sendt anywhere.
+![Contact](./Assets/contact.jpg)
+
+Contact.html is where we have the forms for sending an email, but for now there is no backend script, so the emails/messages are not sendt anywhere. Also added contact links on the bottom, which will have 50% opacity when hovering over. The phone image is floating on larger screens, but on smaller screens the phone image will have its floating characteristics removed 
+
+![Portfolio](./Assets/portfolio.jpg)
 
 Portfolio.html are set up in columns size of 3, so we can have 4 images next to each other. Here i have linked the image and the "headline" to the first project, and created pseudo class so that it show when hovering over the image or text, with opacity or increase in font size and underline. This is where i will upload all projects and link them further on, but for now there is alot of placeholders.
 
+Also i avoided having everything in portfolio in a subcontainer because of the lack of real estate i got from the screen was not optimal.  
+
 ## Styling the sites
 
-I have already mentioned the media queries and floating of the image. Other than padding and margins to make everything fit well together in both large and small screens. I have also included a font from google fonts and a background image aswell.
+I have already mentioned the media queries and floating of the images. Other than padding and margins to make everything fit well together in both large and small screens. I have also included a font from google fonts and a background image aswell.
 All images also have an Alt pluss class image-float to make them responsive.
 
 

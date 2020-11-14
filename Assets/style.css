@@ -60,7 +60,7 @@ h1:hover, .nav-link:hover {
     color: black;
 }
 
-#Marketing:hover {
+#Marketing:hover, #linkedIn:hover, #facebook:hover {
     opacity: 50%;
 }
 
@@ -71,6 +71,26 @@ h1:hover, .nav-link:hover {
 #mwa:focus {
 color: black;
 text-decoration: underline;
+}
+
+#linkedIn, #facebook, #phone{
+    width: 60px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+#phone {
+    float: left;
+    padding-right: 5px;
+}
+
+.phoneNr {
+    font-size: 16px;
+    padding-top: 10px;
+    margin-bottom: 0;
+}
+.phoneNr2 {
+    font-size: 16px;
 }
 
 footer {
@@ -93,7 +113,7 @@ footer {
  @media only screen and (max-width: 767px) {
     /* For mobile phones: */
     .container {margin-bottom: 30px;}
-    #profilePic {
+    #profilePic, #phone {
         float: none; 
     }
 }
