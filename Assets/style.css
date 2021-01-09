@@ -22,7 +22,12 @@ h2 {
     font-family: 'Acme', sans-serif;
 }
 
-.col-lg-8, #portfolio {
+#assigments {
+    padding-bottom: 60px;
+}
+
+.col-lg-8, #portfolio, #assigments {
+    padding-top: 10px;
     background-color: whitesmoke;
     border: 1px solid;
     box-shadow: 5px 10px lightgrey;
@@ -44,8 +49,9 @@ h2 {
     padding-top: 20px;
 }
 
-#mwa {
+.title {
     font-size: 20px;
+    display: block;
 }
 a {
     color: black;
@@ -55,20 +61,35 @@ a {
 h1:hover, .nav-link:hover {
     text-decoration: underline;
 }
-#mwa:hover{
+.title:hover{
     font-size: 24px;
     color: black;
 }
 
-#Marketing:hover, #linkedIn:hover, #facebook:hover {
+.col-md-3 {
+    display: inline-block;
+}
+
+.assignment-image {
+    height: 150px;
+    width: 350px;
+}
+
+.Project-image {
+    height: 350px;
+    width: 350px;
+}
+
+
+.assignment-image:hover, #linkedIn:hover, #facebook:hover, .Project-image:hover {
     opacity: 50%;
 }
 
-#marketing:focus {
+.assignment-image:focus, .Project-image:focus {
     opacity: 50%;
 }
 
-#mwa:focus {
+.title:focus {
 color: black;
 text-decoration: underline;
 }
