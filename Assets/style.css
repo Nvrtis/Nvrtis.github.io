@@ -61,7 +61,7 @@ a {
 h1:hover, .nav-link:hover {
     text-decoration: underline;
 }
-.title:hover{
+.title:hover, .button:hover{
     font-size: 24px;
     color: black;
 }
