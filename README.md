@@ -1,5 +1,5 @@
 
-![Responsiv Portfolio](./Assets/readmeImg.jpg)
+![Responsiv Portfolio](./Assets/Images/readmeImg.jpg)
 
 [Link to Webpage](https://nvrtis.github.io/)
 
@@ -12,11 +12,11 @@ If you are interessted in learning more about me and my collaborative projects y
 This website will be updated when new projects are completed or my skills as a coder has reached a new milestone and i can implement further applications.
 
 
-![Contact](./Assets/contact.jpg)
+![Contact](./Assets/Images/contact.jpg)
 ## Contact information
 Here you find my contact information, The email send button is a work in progress. Further down the screen you will see a link to my Facebook, Linkedin and cellphone number.
 
-![Portfolio](./Assets/portfolio.jpg)
+![Portfolio](./Assets/Images/portfolio.jpg)
 ## Portfolio
 Here you will find a list over the projects and assignments i have had so far. The larger project are pinned first, while the smaller assignments are at the bottom of the page
 
