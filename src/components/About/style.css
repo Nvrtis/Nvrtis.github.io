@@ -33,8 +33,8 @@ h2{
 }
 
 
-@media only screen and (max-width: 600px) {
-    body {
-      background-color: lightblue;
-    }
+@media only screen and (max-width: 900px) {
+        .about {
+            grid-row: initial;
+        }
   }
